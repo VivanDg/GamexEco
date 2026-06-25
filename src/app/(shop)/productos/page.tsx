@@ -11,8 +11,7 @@ import { Button } from "@/components/ui/button";
 import { ProductCard } from "@/modules/catalog/components/product-card";
 import { FilterSidebar } from "@/modules/catalog/components/filter-sidebar";
 import { SortSelect } from "@/modules/catalog/components/sort-select";
-import { getBrands, getCategories, getProducts } from "@/lib/data";
-import { activeFilterLabel } from "@/modules/catalog/query";
+import { getBrands, getCategories, getProducts, activeFilterLabel } from "@/lib/data";
 
 export default async function ProductosPage({
   searchParams,
@@ -24,7 +23,7 @@ export default async function ProductosPage({
     q: typeof sp.q === "string" ? sp.q : undefined,
     cat: typeof sp.cat === "string" ? sp.cat : undefined,
     marca: typeof sp.marca === "string" ? sp.marca : undefined,
-    stock: typeof sp.stock === "string" ? sp.stock : undefined,
+    stock: typeof sp.stock === "string" ? sp.stock === "1" : undefined,
     sort: typeof sp.sort === "string" ? sp.sort : undefined,
   };
   const [categories, brands, list] = await Promise.all([

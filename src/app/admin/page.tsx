@@ -26,7 +26,7 @@ const LOW_STOCK = 15;
 
 export default async function AdminDashboard() {
   const [orders, payments, products, users] = await Promise.all([
-    getOrders(undefined, 10),
+    getOrders({ limit: 10 }),
     getPayments(10),
     getProducts({ limit: 100 }),
     getUsers(),
