@@ -3,6 +3,8 @@ import { BrandStrip } from "@/modules/catalog/components/brand-strip";
 import { ProductRow } from "@/modules/catalog/components/product-row";
 import { getBrands, getProducts } from "@/lib/api";
 
+export const dynamic = "force-dynamic";
+
 export default async function HomePage() {
   const brands = await getBrands();
   const newArrivals = await getProducts({ isNew: true, limit: 5 });

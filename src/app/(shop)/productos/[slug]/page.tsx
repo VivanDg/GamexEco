@@ -1,6 +1,8 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Check, ChevronRight, ShieldCheck, Truck } from "lucide-react";
+
+export const dynamic = "force-dynamic";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import {
@@ -12,13 +14,8 @@ import {
 import { ProductImage } from "@/components/product-image";
 import { ProductPurchase } from "@/modules/catalog/components/product-purchase";
 import { ProductRow } from "@/modules/catalog/components/product-row";
-import { getProductDetail, getProductSlugs } from "@/lib/api";
+import { getProductDetail } from "@/lib/api";
 import { dualPrice } from "@/lib/utils";
-
-export async function generateStaticParams() {
-  const slugs = await getProductSlugs();
-  return slugs.map((slug) => ({ slug }));
-}
 
 export default async function ProductDetailPage({
   params,
