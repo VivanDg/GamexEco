@@ -11,7 +11,7 @@ import { Button } from "@/components/ui/button";
 import { ProductCard } from "@/modules/catalog/components/product-card";
 import { FilterSidebar } from "@/modules/catalog/components/filter-sidebar";
 import { SortSelect } from "@/modules/catalog/components/sort-select";
-import { getBrands, getCategories, getProducts } from "@/lib/api";
+import { getBrands, getCategories, getProducts } from "@/lib/data";
 import { activeFilterLabel } from "@/modules/catalog/query";
 
 export default async function ProductosPage({

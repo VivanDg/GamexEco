@@ -20,7 +20,7 @@ import { OrderStatusBadge } from "@/modules/account/components/order-status-badg
 import { PaymentStatusBadge } from "@/modules/admin/components/payment-status-badge";
 import { paymentMethodLabels } from "@/lib/mock/payments";
 import { dualPrice } from "@/lib/utils";
-import { getOrders, getPayments, getProducts, getUsers } from "@/lib/api";
+import { getOrders, getPayments, getProducts, getUsers } from "@/lib/data";
 
 const LOW_STOCK = 15;
 

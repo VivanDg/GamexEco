@@ -5,7 +5,7 @@ import { SearchBar } from "./search-bar";
 import { ThemeToggle } from "./theme-toggle";
 import { MainNav, MobileNav } from "./main-nav";
 import { CartButton } from "@/modules/cart/components/cart-button";
-import { getCategories } from "@/lib/api";
+import { getCategories } from "@/lib/data";
 
 export async function SiteHeader() {
   const categories = await getCategories();

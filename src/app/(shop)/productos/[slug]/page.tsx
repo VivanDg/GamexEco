@@ -14,7 +14,7 @@ import {
 import { ProductImage } from "@/components/product-image";
 import { ProductPurchase } from "@/modules/catalog/components/product-purchase";
 import { ProductRow } from "@/modules/catalog/components/product-row";
-import { getProductDetail } from "@/lib/api";
+import { getProductBySlug, getRelatedProducts } from "@/lib/data";
 import { dualPrice } from "@/lib/utils";
 
 export default async function ProductDetailPage({
@@ -23,12 +23,11 @@ export default async function ProductDetailPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const data = await getProductDetail(slug);
-  if (!data?.product) notFound();
+  const product = await getProductBySlug(slug);
+  if (!product) notFound();
 
-  const product = data.product;
   const price = dualPrice(product.priceUSD);
-  const related = data.related;
+  const related = await getRelatedProducts(product.id, product.categoryId, 4);
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8">

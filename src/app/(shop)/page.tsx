@@ -1,7 +1,7 @@
 import { Hero } from "@/modules/catalog/components/hero";
 import { BrandStrip } from "@/modules/catalog/components/brand-strip";
 import { ProductRow } from "@/modules/catalog/components/product-row";
-import { getBrands, getProducts } from "@/lib/api";
+import { getBrands, getProducts } from "@/lib/data";
 
 export const dynamic = "force-dynamic";
 
