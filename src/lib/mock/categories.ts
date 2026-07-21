@@ -16,6 +16,7 @@ export const categories: Category[] = [
   { id: "c-laptops", name: "Laptops", slug: "laptops" },
   { id: "c-streaming", name: "Streaming", slug: "streaming" },
   { id: "c-apple", name: "Apple", slug: "apple" },
+  { id: "c-gabinetes", name: "Gabinetes", slug: "gabinetes", parentId: "c-componentes" },
 ];
 
 export const categoryById = (id: string) => categories.find((c) => c.id === id);
