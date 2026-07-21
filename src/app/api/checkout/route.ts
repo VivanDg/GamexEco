@@ -47,7 +47,15 @@ export async function POST(req: Request) {
           })),
         },
         shipping: {
-          create: shipping,
+          create: {
+            fullName: shipping.fullName,
+            phone: shipping.phone,
+            document: shipping.document,
+            region: shipping.region,
+            city: shipping.city,
+            address: shipping.address,
+            reference: shipping.reference,
+          },
         },
       },
       include: { items: true },
