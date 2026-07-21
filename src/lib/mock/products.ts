@@ -10,7 +10,7 @@ export const products: Product[] = [
     categoryId: "c-memorias",
     priceUSD: 246.5,
     stock: 24,
-    images: [],
+    images: ["/images/products/p1-corsair-ram.jpg"],
     isNew: true,
     featured: true,
     description:
@@ -31,7 +31,7 @@ export const products: Product[] = [
     categoryId: "c-memorias",
     priceUSD: 286,
     stock: 21,
-    images: [],
+    images: ["/images/products/p2-kingston-ram.jpg"],
     isNew: true,
     featured: true,
     specs: [
@@ -49,7 +49,7 @@ export const products: Product[] = [
     categoryId: "c-memorias",
     priceUSD: 86,
     stock: 30,
-    images: [],
+    images: ["/images/products/p3-tforce-ram.jpg"],
     isNew: true,
     featured: true,
     specs: [
@@ -67,7 +67,7 @@ export const products: Product[] = [
     categoryId: "c-procesadores",
     priceUSD: 83.21,
     stock: 40,
-    images: [],
+    images: ["/images/products/p4-processor.jpg"],
     isNew: true,
     featured: true,
     specs: [
@@ -86,7 +86,7 @@ export const products: Product[] = [
     categoryId: "c-refrigeracion",
     priceUSD: 14,
     stock: 60,
-    images: [],
+    images: ["/images/products/p9-thermal.jpg"],
     isNew: true,
     featured: true,
     specs: [
@@ -103,7 +103,7 @@ export const products: Product[] = [
     categoryId: "c-memorias",
     priceUSD: 99.99,
     stock: 18,
-    images: [],
+    images: ["/images/products/p6-puskill-ram.jpg"],
     isNew: true,
     featured: true,
     specs: [
@@ -121,7 +121,7 @@ export const products: Product[] = [
     categoryId: "c-tarjetas-video",
     priceUSD: 649,
     stock: 8,
-    images: [],
+    images: ["/images/products/p16-gpu-msi-5070.jpg"],
     isNew: true,
     featured: true,
     specs: [
@@ -140,7 +140,7 @@ export const products: Product[] = [
     priceUSD: 879,
     stock: 0,
     onRequest: true,
-    images: [],
+    images: ["/images/products/p15-gpu-inno3d-5070ti.jpg"],
     isNew: true,
     featured: true,
     specs: [
@@ -157,7 +157,7 @@ export const products: Product[] = [
     categoryId: "c-tarjetas-video",
     priceUSD: 329,
     stock: 12,
-    images: [],
+    images: ["/images/products/p14-gpu-inno3d-5060.jpg"],
     isNew: true,
     featured: true,
     specs: [
@@ -174,7 +174,7 @@ export const products: Product[] = [
     categoryId: "c-tarjetas-video",
     priceUSD: 279,
     stock: 15,
-    images: [],
+    images: ["/images/products/p17-gpu-palit-5050.jpg"],
     isNew: true,
     featured: true,
     specs: [
@@ -191,7 +191,7 @@ export const products: Product[] = [
     categoryId: "c-tarjetas-video",
     priceUSD: 499,
     stock: 6,
-    images: [],
+    images: ["/images/products/p13-gpu-asus.jpg"],
     isNew: true,
     featured: true,
     specs: [
@@ -208,7 +208,7 @@ export const products: Product[] = [
     categoryId: "c-fuentes",
     priceUSD: 139.9,
     stock: 20,
-    images: [],
+    images: ["/images/products/p19.jpg"],
     featured: true,
     description:
       "Fuente full modular con certificación Cybenetics Gold, ventilador híbrido silencioso y protección contra sobrecargas y sobretensiones. Compatible ATX 3.1 con cable 12V-2x6 (600W).",
@@ -228,7 +228,7 @@ export const products: Product[] = [
     categoryId: "c-placas",
     priceUSD: 169,
     stock: 14,
-    images: [],
+    images: ["/images/products/p10-motherboard.jpg"],
     specs: [
       { label: "Socket", value: "AM5" },
       { label: "Formato", value: "Micro-ATX" },
@@ -244,7 +244,7 @@ export const products: Product[] = [
     categoryId: "c-almacenamiento",
     priceUSD: 74.9,
     stock: 35,
-    images: [],
+    images: ["/images/products/p12-ssd.jpg"],
     specs: [
       { label: "Capacidad", value: "1 TB" },
       { label: "Interfaz", value: "PCIe 4.0 NVMe" },
@@ -260,7 +260,7 @@ export const products: Product[] = [
     categoryId: "c-memorias",
     priceUSD: 189,
     stock: 17,
-    images: [],
+    images: ["/images/products/p5-gskill-ram.jpg"],
     specs: [
       { label: "Capacidad", value: "32 GB (2x16)" },
       { label: "Tipo", value: "DDR5 RGB" },
@@ -276,7 +276,7 @@ export const products: Product[] = [
     categoryId: "c-monitores",
     priceUSD: 329,
     stock: 9,
-    images: [],
+    images: ["/images/products/p7-monitor.jpg"],
     featured: true,
     specs: [
       { label: "Tamaño", value: '27"' },
@@ -294,7 +294,7 @@ export const products: Product[] = [
     categoryId: "c-perifericos",
     priceUSD: 159,
     stock: 22,
-    images: [],
+    images: ["/images/products/p18-keyboard.jpg"],
     featured: true,
     specs: [
       { label: "Tipo", value: "Mecánico" },
@@ -311,7 +311,7 @@ export const products: Product[] = [
     categoryId: "c-streaming",
     priceUSD: 99,
     stock: 13,
-    images: [],
+    images: ["/images/products/p8-speakers.jpg"],
     specs: [
       { label: "Configuración", value: "2.0" },
       { label: "Conexión", value: "3.5 mm" },
@@ -326,7 +326,7 @@ export const products: Product[] = [
     categoryId: "c-procesadores",
     priceUSD: 109,
     stock: 22,
-    images: [],
+    images: ["/images/products/p-1000.jpg"],
     specs: [
       { label: "Núcleos", value: "4" },
       { label: "Frecuencia", value: "3.5 - 4.7 GHz" },
@@ -343,7 +343,7 @@ export const products: Product[] = [
     categoryId: "c-procesadores",
     priceUSD: 179,
     stock: 30,
-    images: [],
+    images: ["/images/products/p-1001.jpg"],
     specs: [
       { label: "Núcleos", value: "10" },
       { label: "Frecuencia", value: "2.5 - 4.7 GHz" },
@@ -360,7 +360,7 @@ export const products: Product[] = [
     categoryId: "c-procesadores",
     priceUSD: 289,
     stock: 16,
-    images: [],
+    images: ["/images/products/p-1002.jpg"],
     featured: true,
     specs: [
       { label: "Núcleos", value: "14" },
@@ -378,7 +378,7 @@ export const products: Product[] = [
     categoryId: "c-procesadores",
     priceUSD: 359,
     stock: 12,
-    images: [],
+    images: ["/images/products/p-1003.jpg"],
     specs: [
       { label: "Núcleos", value: "20" },
       { label: "Frecuencia", value: "2.1 - 5.4 GHz" },
@@ -395,7 +395,7 @@ export const products: Product[] = [
     categoryId: "c-procesadores",
     priceUSD: 589,
     stock: 5,
-    images: [],
+    images: ["/images/products/p-1004.jpg"],
     featured: true,
     specs: [
       { label: "Núcleos", value: "24" },
@@ -413,7 +413,7 @@ export const products: Product[] = [
     categoryId: "c-procesadores",
     priceUSD: 129,
     stock: 28,
-    images: [],
+    images: ["/images/products/p-1005.jpg"],
     specs: [
       { label: "Núcleos", value: "6" },
       { label: "Frecuencia", value: "3.5 - 4.4 GHz" },
@@ -430,7 +430,7 @@ export const products: Product[] = [
     categoryId: "c-procesadores",
     priceUSD: 239,
     stock: 19,
-    images: [],
+    images: ["/images/products/p-1006.jpg"],
     isNew: true,
     specs: [
       { label: "Núcleos", value: "6" },
@@ -448,7 +448,7 @@ export const products: Product[] = [
     categoryId: "c-procesadores",
     priceUSD: 319,
     stock: 14,
-    images: [],
+    images: ["/images/products/p-1007.jpg"],
     isNew: true,
     specs: [
       { label: "Núcleos", value: "8" },
@@ -466,7 +466,7 @@ export const products: Product[] = [
     categoryId: "c-procesadores",
     priceUSD: 449,
     stock: 8,
-    images: [],
+    images: ["/images/products/p-1008.jpg"],
     isNew: true,
     featured: true,
     specs: [
@@ -485,7 +485,7 @@ export const products: Product[] = [
     categoryId: "c-procesadores",
     priceUSD: 699,
     stock: 3,
-    images: [],
+    images: ["/images/products/p-1009.jpg"],
     isNew: true,
     featured: true,
     specs: [
@@ -504,7 +504,7 @@ export const products: Product[] = [
     categoryId: "c-tarjetas-video",
     priceUSD: 299,
     stock: 14,
-    images: [],
+    images: ["/images/products/p-1010.jpg"],
     specs: [
       { label: "GPU", value: "GeForce RTX 4060" },
       { label: "Memoria", value: "8 GB GDDR6" },
@@ -519,7 +519,7 @@ export const products: Product[] = [
     categoryId: "c-tarjetas-video",
     priceUSD: 419,
     stock: 9,
-    images: [],
+    images: ["/images/products/p-1011.jpg"],
     specs: [
       { label: "GPU", value: "GeForce RTX 4060 Ti" },
       { label: "Memoria", value: "8 GB GDDR6" },
@@ -534,7 +534,7 @@ export const products: Product[] = [
     categoryId: "c-tarjetas-video",
     priceUSD: 269,
     stock: 11,
-    images: [],
+    images: ["/images/products/p-1012.jpg"],
     specs: [
       { label: "GPU", value: "Radeon RX 7600" },
       { label: "Memoria", value: "8 GB GDDR6" },
@@ -549,7 +549,7 @@ export const products: Product[] = [
     categoryId: "c-tarjetas-video",
     priceUSD: 449,
     stock: 7,
-    images: [],
+    images: ["/images/products/p-1013.jpg"],
     featured: true,
     specs: [
       { label: "GPU", value: "Radeon RX 7700 XT" },
@@ -565,7 +565,7 @@ export const products: Product[] = [
     categoryId: "c-tarjetas-video",
     priceUSD: 619,
     stock: 6,
-    images: [],
+    images: ["/images/products/p-1014.jpg"],
     featured: true,
     specs: [
       { label: "GPU", value: "GeForce RTX 4070 Super" },
@@ -581,7 +581,7 @@ export const products: Product[] = [
     categoryId: "c-tarjetas-video",
     priceUSD: 999,
     stock: 4,
-    images: [],
+    images: ["/images/products/p-1015.jpg"],
     featured: true,
     specs: [
       { label: "GPU", value: "GeForce RTX 4080 Super" },
@@ -597,7 +597,7 @@ export const products: Product[] = [
     categoryId: "c-tarjetas-video",
     priceUSD: 309,
     stock: 13,
-    images: [],
+    images: ["/images/products/p-1016.jpg"],
     specs: [
       { label: "GPU", value: "GeForce RTX 4060" },
       { label: "Memoria", value: "8 GB GDDR6" },
@@ -612,7 +612,7 @@ export const products: Product[] = [
     categoryId: "c-tarjetas-video",
     priceUSD: 539,
     stock: 8,
-    images: [],
+    images: ["/images/products/p-1017.jpg"],
     specs: [
       { label: "GPU", value: "GeForce RTX 4070" },
       { label: "Memoria", value: "12 GB GDDR6X" },
@@ -627,7 +627,7 @@ export const products: Product[] = [
     categoryId: "c-tarjetas-video",
     priceUSD: 219,
     stock: 17,
-    images: [],
+    images: ["/images/products/p-1018.jpg"],
     specs: [
       { label: "GPU", value: "Radeon RX 6600" },
       { label: "Memoria", value: "8 GB GDDR6" },
@@ -642,7 +642,7 @@ export const products: Product[] = [
     categoryId: "c-tarjetas-video",
     priceUSD: 2199,
     stock: 0,
-    images: [],
+    images: ["/images/products/p-1019.jpg"],
     isNew: true,
     featured: true,
     onRequest: true,
@@ -660,7 +660,7 @@ export const products: Product[] = [
     categoryId: "c-memorias",
     priceUSD: 39.9,
     stock: 45,
-    images: [],
+    images: ["/images/products/p-1020.jpg"],
     specs: [
       { label: "Capacidad", value: "8 GB" },
       { label: "Tipo", value: "DDR4" },
@@ -676,7 +676,7 @@ export const products: Product[] = [
     categoryId: "c-memorias",
     priceUSD: 119,
     stock: 20,
-    images: [],
+    images: ["/images/products/p-1021.jpg"],
     specs: [
       { label: "Capacidad", value: "32 GB (2x16)" },
       { label: "Tipo", value: "DDR4" },
@@ -692,7 +692,7 @@ export const products: Product[] = [
     categoryId: "c-memorias",
     priceUSD: 109,
     stock: 24,
-    images: [],
+    images: ["/images/products/p-1022.jpg"],
     specs: [
       { label: "Capacidad", value: "16 GB" },
       { label: "Tipo", value: "DDR5 RGB" },
@@ -708,7 +708,7 @@ export const products: Product[] = [
     categoryId: "c-memorias",
     priceUSD: 219,
     stock: 10,
-    images: [],
+    images: ["/images/products/p-1023.jpg"],
     featured: true,
     specs: [
       { label: "Capacidad", value: "32 GB (2x16)" },
@@ -725,7 +725,7 @@ export const products: Product[] = [
     categoryId: "c-memorias",
     priceUSD: 389,
     stock: 6,
-    images: [],
+    images: ["/images/products/p-1024.jpg"],
     featured: true,
     specs: [
       { label: "Capacidad", value: "64 GB (2x32)" },
@@ -742,7 +742,7 @@ export const products: Product[] = [
     categoryId: "c-memorias",
     priceUSD: 24.9,
     stock: 25,
-    images: [],
+    images: ["/images/products/p-1025.jpg"],
     specs: [
       { label: "Capacidad", value: "8 GB" },
       { label: "Tipo", value: "DDR3" },
@@ -758,7 +758,7 @@ export const products: Product[] = [
     categoryId: "c-memorias",
     priceUSD: 69.9,
     stock: 32,
-    images: [],
+    images: ["/images/products/p-1026.jpg"],
     specs: [
       { label: "Capacidad", value: "16 GB (2x8)" },
       { label: "Tipo", value: "DDR4" },
@@ -774,7 +774,7 @@ export const products: Product[] = [
     categoryId: "c-memorias",
     priceUSD: 149,
     stock: 15,
-    images: [],
+    images: ["/images/products/p-1027.jpg"],
     isNew: true,
     specs: [
       { label: "Capacidad", value: "32 GB (2x16)" },
@@ -791,7 +791,7 @@ export const products: Product[] = [
     categoryId: "c-almacenamiento",
     priceUSD: 44.9,
     stock: 40,
-    images: [],
+    images: ["/images/products/p-1028.jpg"],
     specs: [
       { label: "Capacidad", value: "500 GB" },
       { label: "Interfaz", value: "PCIe 3.0 NVMe" },
@@ -807,7 +807,7 @@ export const products: Product[] = [
     categoryId: "c-almacenamiento",
     priceUSD: 159,
     stock: 18,
-    images: [],
+    images: ["/images/products/p-1029.jpg"],
     featured: true,
     specs: [
       { label: "Capacidad", value: "2 TB" },
@@ -824,7 +824,7 @@ export const products: Product[] = [
     categoryId: "c-almacenamiento",
     priceUSD: 54.9,
     stock: 50,
-    images: [],
+    images: ["/images/products/p-1030.jpg"],
     specs: [
       { label: "Capacidad", value: "1 TB" },
       { label: "Interfaz", value: "PCIe 4.0 NVMe" },
@@ -840,7 +840,7 @@ export const products: Product[] = [
     categoryId: "c-almacenamiento",
     priceUSD: 89.9,
     stock: 22,
-    images: [],
+    images: ["/images/products/p-1031.jpg"],
     featured: true,
     specs: [
       { label: "Capacidad", value: "1 TB" },
@@ -857,7 +857,7 @@ export const products: Product[] = [
     categoryId: "c-almacenamiento",
     priceUSD: 39.9,
     stock: 35,
-    images: [],
+    images: ["/images/products/p-1032.jpg"],
     specs: [
       { label: "Capacidad", value: "500 GB" },
       { label: "Interfaz", value: "PCIe 4.0 NVMe" },
@@ -873,7 +873,7 @@ export const products: Product[] = [
     categoryId: "c-almacenamiento",
     priceUSD: 24.9,
     stock: 60,
-    images: [],
+    images: ["/images/products/p-1033.jpg"],
     specs: [
       { label: "Capacidad", value: "480 GB" },
       { label: "Interfaz", value: "SATA III" },
@@ -889,7 +889,7 @@ export const products: Product[] = [
     categoryId: "c-almacenamiento",
     priceUSD: 64.9,
     stock: 28,
-    images: [],
+    images: ["/images/products/p-1034.jpg"],
     specs: [
       { label: "Capacidad", value: "1 TB" },
       { label: "Interfaz", value: "SATA III" },
@@ -905,7 +905,7 @@ export const products: Product[] = [
     categoryId: "c-almacenamiento",
     priceUSD: 54.9,
     stock: 24,
-    images: [],
+    images: ["/images/products/p-1035.jpg"],
     specs: [
       { label: "Capacidad", value: "2 TB" },
       { label: "Interfaz", value: "SATA III" },
@@ -921,7 +921,7 @@ export const products: Product[] = [
     categoryId: "c-almacenamiento",
     priceUSD: 89.9,
     stock: 16,
-    images: [],
+    images: ["/images/products/p-1036.jpg"],
     specs: [
       { label: "Capacidad", value: "4 TB" },
       { label: "Interfaz", value: "SATA III" },
@@ -937,7 +937,7 @@ export const products: Product[] = [
     categoryId: "c-almacenamiento",
     priceUSD: 109,
     stock: 12,
-    images: [],
+    images: ["/images/products/p-1037.jpg"],
     specs: [
       { label: "Capacidad", value: "4 TB" },
       { label: "Uso", value: "Videovigilancia" },
@@ -953,7 +953,7 @@ export const products: Product[] = [
     categoryId: "c-almacenamiento",
     priceUSD: 139,
     stock: 20,
-    images: [],
+    images: ["/images/products/p-1038.jpg"],
     isNew: true,
     specs: [
       { label: "Capacidad", value: "2 TB" },
@@ -970,7 +970,7 @@ export const products: Product[] = [
     categoryId: "c-almacenamiento",
     priceUSD: 89.9,
     stock: 26,
-    images: [],
+    images: ["/images/products/p-1039.jpg"],
     isNew: true,
     specs: [
       { label: "Capacidad", value: "1 TB" },
@@ -987,7 +987,7 @@ export const products: Product[] = [
     categoryId: "c-placas",
     priceUSD: 159,
     stock: 16,
-    images: [],
+    images: ["/images/products/p-1040.jpg"],
     specs: [
       { label: "Socket", value: "LGA1700" },
       { label: "Formato", value: "Micro-ATX" },
@@ -1003,7 +1003,7 @@ export const products: Product[] = [
     categoryId: "c-placas",
     priceUSD: 199,
     stock: 12,
-    images: [],
+    images: ["/images/products/p-1041.jpg"],
     featured: true,
     specs: [
       { label: "Socket", value: "AM5" },
@@ -1020,7 +1020,7 @@ export const products: Product[] = [
     categoryId: "c-placas",
     priceUSD: 99,
     stock: 20,
-    images: [],
+    images: ["/images/products/p-1042.jpg"],
     specs: [
       { label: "Socket", value: "AM4" },
       { label: "Formato", value: "Micro-ATX" },
@@ -1036,7 +1036,7 @@ export const products: Product[] = [
     categoryId: "c-placas",
     priceUSD: 229,
     stock: 9,
-    images: [],
+    images: ["/images/products/p-1043.jpg"],
     specs: [
       { label: "Socket", value: "LGA1700" },
       { label: "Formato", value: "ATX" },
@@ -1052,7 +1052,7 @@ export const products: Product[] = [
     categoryId: "c-placas",
     priceUSD: 479,
     stock: 5,
-    images: [],
+    images: ["/images/products/p-1044.jpg"],
     isNew: true,
     featured: true,
     specs: [
@@ -1070,7 +1070,7 @@ export const products: Product[] = [
     categoryId: "c-placas",
     priceUSD: 79,
     stock: 26,
-    images: [],
+    images: ["/images/products/p-1045.jpg"],
     specs: [
       { label: "Socket", value: "LGA1700" },
       { label: "Formato", value: "Micro-ATX" },
@@ -1086,7 +1086,7 @@ export const products: Product[] = [
     categoryId: "c-placas",
     priceUSD: 219,
     stock: 11,
-    images: [],
+    images: ["/images/products/p-1046.jpg"],
     specs: [
       { label: "Socket", value: "AM5" },
       { label: "Formato", value: "ATX" },
@@ -1102,7 +1102,7 @@ export const products: Product[] = [
     categoryId: "c-placas",
     priceUSD: 89,
     stock: 18,
-    images: [],
+    images: ["/images/products/p-1047.jpg"],
     isNew: true,
     specs: [
       { label: "Socket", value: "AM5" },
@@ -1119,7 +1119,7 @@ export const products: Product[] = [
     categoryId: "c-fuentes",
     priceUSD: 99.9,
     stock: 22,
-    images: [],
+    images: ["/images/products/p-1048.jpg"],
     specs: [
       { label: "Potencia", value: "750 W" },
       { label: "Certificación", value: "80+ Gold" },
@@ -1135,7 +1135,7 @@ export const products: Product[] = [
     categoryId: "c-fuentes",
     priceUSD: 44.9,
     stock: 30,
-    images: [],
+    images: ["/images/products/p-1049.jpg"],
     specs: [
       { label: "Potencia", value: "600 W" },
       { label: "Certificación", value: "80+ Bronze" },
@@ -1150,7 +1150,7 @@ export const products: Product[] = [
     categoryId: "c-fuentes",
     priceUSD: 79.9,
     stock: 18,
-    images: [],
+    images: ["/images/products/p-1050.jpg"],
     specs: [
       { label: "Potencia", value: "650 W" },
       { label: "Certificación", value: "80+ Gold" },
@@ -1166,7 +1166,7 @@ export const products: Product[] = [
     categoryId: "c-fuentes",
     priceUSD: 169,
     stock: 8,
-    images: [],
+    images: ["/images/products/p-1051.jpg"],
     featured: true,
     specs: [
       { label: "Potencia", value: "1000 W" },
@@ -1183,7 +1183,7 @@ export const products: Product[] = [
     categoryId: "c-fuentes",
     priceUSD: 39.9,
     stock: 26,
-    images: [],
+    images: ["/images/products/p-1052.jpg"],
     specs: [
       { label: "Potencia", value: "500 W" },
       { label: "Certificación", value: "80+ Bronze" },
@@ -1198,7 +1198,7 @@ export const products: Product[] = [
     categoryId: "c-fuentes",
     priceUSD: 119,
     stock: 14,
-    images: [],
+    images: ["/images/products/p-1053.jpg"],
     isNew: true,
     specs: [
       { label: "Potencia", value: "850 W" },
@@ -1215,7 +1215,7 @@ export const products: Product[] = [
     categoryId: "c-refrigeracion",
     priceUSD: 29.9,
     stock: 40,
-    images: [],
+    images: ["/images/products/p-1054.jpg"],
     specs: [
       { label: "Tipo", value: "Aire" },
       { label: "Ventilador", value: "120 mm" },
@@ -1231,7 +1231,7 @@ export const products: Product[] = [
     categoryId: "c-refrigeracion",
     priceUSD: 149,
     stock: 15,
-    images: [],
+    images: ["/images/products/p-1055.jpg"],
     featured: true,
     specs: [
       { label: "Tipo", value: "AIO Líquida" },
@@ -1248,7 +1248,7 @@ export const products: Product[] = [
     categoryId: "c-refrigeracion",
     priceUSD: 219,
     stock: 9,
-    images: [],
+    images: ["/images/products/p-1056.jpg"],
     featured: true,
     specs: [
       { label: "Tipo", value: "AIO Líquida" },
@@ -1265,7 +1265,7 @@ export const products: Product[] = [
     categoryId: "c-refrigeracion",
     priceUSD: 39.9,
     stock: 28,
-    images: [],
+    images: ["/images/products/p-1057.jpg"],
     specs: [
       { label: "Tipo", value: "Aire" },
       { label: "Ventilador", value: "120 mm" },
@@ -1281,7 +1281,7 @@ export const products: Product[] = [
     categoryId: "c-refrigeracion",
     priceUSD: 49.9,
     stock: 24,
-    images: [],
+    images: ["/images/products/p-1058.jpg"],
     specs: [
       { label: "Cantidad", value: "3" },
       { label: "Tamaño", value: "120 mm" },
@@ -1297,7 +1297,7 @@ export const products: Product[] = [
     categoryId: "c-refrigeracion",
     priceUSD: 12.9,
     stock: 50,
-    images: [],
+    images: ["/images/products/p-1059.jpg"],
     specs: [
       { label: "Contenido", value: "4 g" },
       { label: "Conductividad", value: "Alta" },
@@ -1312,7 +1312,7 @@ export const products: Product[] = [
     categoryId: "c-refrigeracion",
     priceUSD: 99.9,
     stock: 13,
-    images: [],
+    images: ["/images/products/p-1060.jpg"],
     isNew: true,
     specs: [
       { label: "Tipo", value: "AIO Líquida" },
@@ -1329,7 +1329,7 @@ export const products: Product[] = [
     categoryId: "c-refrigeracion",
     priceUSD: 24.9,
     stock: 35,
-    images: [],
+    images: ["/images/products/p-1061.jpg"],
     specs: [
       { label: "Tipo", value: "Aire" },
       { label: "Ventilador", value: "120 mm" },
@@ -1345,7 +1345,7 @@ export const products: Product[] = [
     categoryId: "c-gabinetes",
     priceUSD: 89.9,
     stock: 20,
-    images: [],
+    images: ["/images/products/p-1062.jpg"],
     featured: true,
     specs: [
       { label: "Formato", value: "Mid Tower" },
@@ -1362,7 +1362,7 @@ export const products: Product[] = [
     categoryId: "c-gabinetes",
     priceUSD: 99.9,
     stock: 16,
-    images: [],
+    images: ["/images/products/p-1063.jpg"],
     specs: [
       { label: "Formato", value: "Mid Tower" },
       { label: "Compatibilidad", value: "ATX" },
@@ -1378,7 +1378,7 @@ export const products: Product[] = [
     categoryId: "c-gabinetes",
     priceUSD: 109,
     stock: 18,
-    images: [],
+    images: ["/images/products/p-1064.jpg"],
     featured: true,
     specs: [
       { label: "Formato", value: "Mid Tower" },
@@ -1395,7 +1395,7 @@ export const products: Product[] = [
     categoryId: "c-gabinetes",
     priceUSD: 79.9,
     stock: 22,
-    images: [],
+    images: ["/images/products/p-1065.jpg"],
     specs: [
       { label: "Formato", value: "Mid Tower" },
       { label: "Compatibilidad", value: "ATX" },
@@ -1411,7 +1411,7 @@ export const products: Product[] = [
     categoryId: "c-gabinetes",
     priceUSD: 149,
     stock: 10,
-    images: [],
+    images: ["/images/products/p-1066.jpg"],
     isNew: true,
     specs: [
       { label: "Formato", value: "Mid Tower" },
@@ -1428,7 +1428,7 @@ export const products: Product[] = [
     categoryId: "c-gabinetes",
     priceUSD: 69.9,
     stock: 24,
-    images: [],
+    images: ["/images/products/p-1067.jpg"],
     specs: [
       { label: "Formato", value: "Mid Tower" },
       { label: "Compatibilidad", value: "ATX" },
@@ -1444,7 +1444,7 @@ export const products: Product[] = [
     categoryId: "c-monitores",
     priceUSD: 349,
     stock: 12,
-    images: [],
+    images: ["/images/products/p-1068.jpg"],
     featured: true,
     specs: [
       { label: "Tamaño", value: "27\"" },
@@ -1462,7 +1462,7 @@ export const products: Product[] = [
     categoryId: "c-monitores",
     priceUSD: 259,
     stock: 15,
-    images: [],
+    images: ["/images/products/p-1069.jpg"],
     specs: [
       { label: "Tamaño", value: "27\"" },
       { label: "Resolución", value: "2560x1440 (2K)" },
@@ -1479,7 +1479,7 @@ export const products: Product[] = [
     categoryId: "c-monitores",
     priceUSD: 149,
     stock: 20,
-    images: [],
+    images: ["/images/products/p-1070.jpg"],
     specs: [
       { label: "Tamaño", value: "24\"" },
       { label: "Resolución", value: "1920x1080 (FHD)" },
@@ -1496,7 +1496,7 @@ export const products: Product[] = [
     categoryId: "c-monitores",
     priceUSD: 329,
     stock: 9,
-    images: [],
+    images: ["/images/products/p-1071.jpg"],
     specs: [
       { label: "Tamaño", value: "27\"" },
       { label: "Resolución", value: "2560x1440 (2K)" },
@@ -1513,7 +1513,7 @@ export const products: Product[] = [
     categoryId: "c-monitores",
     priceUSD: 449,
     stock: 6,
-    images: [],
+    images: ["/images/products/p-1072.jpg"],
     isNew: true,
     featured: true,
     specs: [
@@ -1532,7 +1532,7 @@ export const products: Product[] = [
     categoryId: "c-monitores",
     priceUSD: 169,
     stock: 18,
-    images: [],
+    images: ["/images/products/p-1073.jpg"],
     specs: [
       { label: "Tamaño", value: "24\"" },
       { label: "Resolución", value: "1920x1080 (FHD)" },
@@ -1549,7 +1549,7 @@ export const products: Product[] = [
     categoryId: "c-monitores",
     priceUSD: 209,
     stock: 11,
-    images: [],
+    images: ["/images/products/p-1074.jpg"],
     specs: [
       { label: "Tamaño", value: "32\"" },
       { label: "Resolución", value: "1920x1080 (FHD)" },
@@ -1566,7 +1566,7 @@ export const products: Product[] = [
     categoryId: "c-monitores",
     priceUSD: 549,
     stock: 4,
-    images: [],
+    images: ["/images/products/p-1075.jpg"],
     isNew: true,
     featured: true,
     specs: [
@@ -1585,7 +1585,7 @@ export const products: Product[] = [
     categoryId: "c-monitores",
     priceUSD: 429,
     stock: 7,
-    images: [],
+    images: ["/images/products/p-1076.jpg"],
     specs: [
       { label: "Tamaño", value: "32\"" },
       { label: "Resolución", value: "3840x2160 (4K)" },
@@ -1602,7 +1602,7 @@ export const products: Product[] = [
     categoryId: "c-monitores",
     priceUSD: 219,
     stock: 13,
-    images: [],
+    images: ["/images/products/p-1077.jpg"],
     isNew: true,
     specs: [
       { label: "Tamaño", value: "27\"" },
@@ -1620,7 +1620,7 @@ export const products: Product[] = [
     categoryId: "c-perifericos",
     priceUSD: 149,
     stock: 16,
-    images: [],
+    images: ["/images/products/p-1078.jpg"],
     featured: true,
     specs: [
       { label: "Tipo", value: "Inalámbrico" },
@@ -1637,7 +1637,7 @@ export const products: Product[] = [
     categoryId: "c-perifericos",
     priceUSD: 69.9,
     stock: 22,
-    images: [],
+    images: ["/images/products/p-1079.jpg"],
     specs: [
       { label: "Tipo", value: "Alámbrico" },
       { label: "Sensor", value: "Focus Pro 30K" },
@@ -1653,7 +1653,7 @@ export const products: Product[] = [
     categoryId: "c-perifericos",
     priceUSD: 249,
     stock: 8,
-    images: [],
+    images: ["/images/products/p-1080.jpg"],
     featured: true,
     specs: [
       { label: "Tipo", value: "Mecánico" },
@@ -1670,7 +1670,7 @@ export const products: Product[] = [
     categoryId: "c-perifericos",
     priceUSD: 89.9,
     stock: 18,
-    images: [],
+    images: ["/images/products/p-1081.jpg"],
     specs: [
       { label: "Tipo", value: "Mecánico" },
       { label: "Switch", value: "HyperX Red" },
@@ -1686,7 +1686,7 @@ export const products: Product[] = [
     categoryId: "c-perifericos",
     priceUSD: 149,
     stock: 14,
-    images: [],
+    images: ["/images/products/p-1082.jpg"],
     featured: true,
     specs: [
       { label: "Tipo", value: "Inalámbrico" },
@@ -1703,7 +1703,7 @@ export const products: Product[] = [
     categoryId: "c-perifericos",
     priceUSD: 79.9,
     stock: 26,
-    images: [],
+    images: ["/images/products/p-1083.jpg"],
     specs: [
       { label: "Tipo", value: "Alámbrico" },
       { label: "Sonido", value: "7.1 Virtual" },
@@ -1719,7 +1719,7 @@ export const products: Product[] = [
     categoryId: "c-perifericos",
     priceUSD: 69.9,
     stock: 20,
-    images: [],
+    images: ["/images/products/p-1084.jpg"],
     specs: [
       { label: "Tipo", value: "Inalámbrico" },
       { label: "Conexión", value: "Bluetooth/Lightspeed" },
@@ -1735,7 +1735,7 @@ export const products: Product[] = [
     categoryId: "c-perifericos",
     priceUSD: 34.9,
     stock: 30,
-    images: [],
+    images: ["/images/products/p-1085.jpg"],
     specs: [
       { label: "Tamaño", value: "940x410 mm" },
       { label: "Superficie", value: "Tela" },
@@ -1750,7 +1750,7 @@ export const products: Product[] = [
     categoryId: "c-perifericos",
     priceUSD: 29.9,
     stock: 25,
-    images: [],
+    images: ["/images/products/p-1086.jpg"],
     specs: [
       { label: "Tamaño", value: "900x420 mm" },
       { label: "Iluminación", value: "RGB" },
@@ -1765,7 +1765,7 @@ export const products: Product[] = [
     categoryId: "c-perifericos",
     priceUSD: 34.9,
     stock: 35,
-    images: [],
+    images: ["/images/products/p-1087.jpg"],
     specs: [
       { label: "Tipo", value: "Mecánico" },
       { label: "Switch", value: "Blue" },
@@ -1781,7 +1781,7 @@ export const products: Product[] = [
     categoryId: "c-perifericos",
     priceUSD: 24.9,
     stock: 40,
-    images: [],
+    images: ["/images/products/p-1088.jpg"],
     specs: [
       { label: "Tipo", value: "Alámbrico" },
       { label: "DPI", value: "10000" },
@@ -1797,7 +1797,7 @@ export const products: Product[] = [
     categoryId: "c-perifericos",
     priceUSD: 79.9,
     stock: 17,
-    images: [],
+    images: ["/images/products/p-1089.jpg"],
     specs: [
       { label: "Resolución", value: "1080p" },
       { label: "FPS", value: "30" },
@@ -1813,7 +1813,7 @@ export const products: Product[] = [
     categoryId: "c-perifericos",
     priceUSD: 59.9,
     stock: 24,
-    images: [],
+    images: ["/images/products/p-1090.jpg"],
     specs: [
       { label: "Conexión", value: "Bluetooth/USB" },
       { label: "Compatibilidad", value: "Xbox/PC" },
@@ -1829,7 +1829,7 @@ export const products: Product[] = [
     categoryId: "c-perifericos",
     priceUSD: 59.9,
     stock: 22,
-    images: [],
+    images: ["/images/products/p-1091.jpg"],
     specs: [
       { label: "Tipo", value: "Alámbrico" },
       { label: "Sonido", value: "Surround" },
@@ -1845,7 +1845,7 @@ export const products: Product[] = [
     categoryId: "c-perifericos",
     priceUSD: 99.9,
     stock: 15,
-    images: [],
+    images: ["/images/products/p-1092.jpg"],
     isNew: true,
     specs: [
       { label: "Tipo", value: "Membrana" },
@@ -1862,7 +1862,7 @@ export const products: Product[] = [
     categoryId: "c-perifericos",
     priceUSD: 129,
     stock: 10,
-    images: [],
+    images: ["/images/products/p-1093.jpg"],
     isNew: true,
     specs: [
       { label: "Tipo", value: "Inalámbrico" },
@@ -1879,7 +1879,7 @@ export const products: Product[] = [
     categoryId: "c-streaming",
     priceUSD: 149,
     stock: 10,
-    images: [],
+    images: ["/images/products/p-1094.jpg"],
     featured: true,
     specs: [
       { label: "Tipo", value: "Condensador USB" },
@@ -1896,7 +1896,7 @@ export const products: Product[] = [
     categoryId: "c-streaming",
     priceUSD: 49.9,
     stock: 18,
-    images: [],
+    images: ["/images/products/p-1095.jpg"],
     specs: [
       { label: "Tipo", value: "Condensador USB" },
       { label: "Tamaño", value: "Compacto" },
@@ -1911,7 +1911,7 @@ export const products: Product[] = [
     categoryId: "c-streaming",
     priceUSD: 129,
     stock: 8,
-    images: [],
+    images: ["/images/products/p-1096.jpg"],
     specs: [
       { label: "Resolución", value: "4K30 / 1080p60" },
       { label: "Interfaz", value: "USB 3.0" },
@@ -1926,7 +1926,7 @@ export const products: Product[] = [
     categoryId: "c-streaming",
     priceUSD: 179,
     stock: 6,
-    images: [],
+    images: ["/images/products/p-1097.jpg"],
     isNew: true,
     featured: true,
     specs: [
@@ -1943,7 +1943,7 @@ export const products: Product[] = [
     categoryId: "c-streaming",
     priceUSD: 29.9,
     stock: 30,
-    images: [],
+    images: ["/images/products/p-1098.jpg"],
     specs: [
       { label: "Diámetro", value: "26 cm" },
       { label: "Temperatura", value: "3200-5600K" },
@@ -1958,7 +1958,7 @@ export const products: Product[] = [
     categoryId: "c-streaming",
     priceUSD: 129,
     stock: 12,
-    images: [],
+    images: ["/images/products/p-1099.jpg"],
     isNew: true,
     specs: [
       { label: "Configuración", value: "2.0" },
@@ -1974,7 +1974,7 @@ export const products: Product[] = [
     categoryId: "c-laptops",
     priceUSD: 999,
     stock: 8,
-    images: [],
+    images: ["/images/products/p-1100.jpg"],
     featured: true,
     specs: [
       { label: "Procesador", value: "Ryzen 7 7435HS" },
@@ -1992,7 +1992,7 @@ export const products: Product[] = [
     categoryId: "c-laptops",
     priceUSD: 869,
     stock: 10,
-    images: [],
+    images: ["/images/products/p-1101.jpg"],
     specs: [
       { label: "Procesador", value: "Core i5-13420H" },
       { label: "GPU", value: "RTX 4050" },
@@ -2009,7 +2009,7 @@ export const products: Product[] = [
     categoryId: "c-laptops",
     priceUSD: 1299,
     stock: 5,
-    images: [],
+    images: ["/images/products/p-1102.jpg"],
     isNew: true,
     featured: true,
     specs: [
@@ -2028,7 +2028,7 @@ export const products: Product[] = [
     categoryId: "c-laptops",
     priceUSD: 599,
     stock: 14,
-    images: [],
+    images: ["/images/products/p-1103.jpg"],
     specs: [
       { label: "Procesador", value: "Core i5-1235U" },
       { label: "RAM", value: "8 GB" },
@@ -2044,7 +2044,7 @@ export const products: Product[] = [
     categoryId: "c-laptops",
     priceUSD: 849,
     stock: 9,
-    images: [],
+    images: ["/images/products/p-1104.jpg"],
     specs: [
       { label: "Procesador", value: "Core i5-13420H" },
       { label: "GPU", value: "RTX 4050" },
@@ -2061,7 +2061,7 @@ export const products: Product[] = [
     categoryId: "c-laptops",
     priceUSD: 1099,
     stock: 6,
-    images: [],
+    images: ["/images/products/p-1105.jpg"],
     featured: true,
     specs: [
       { label: "Procesador", value: "Core i7-13620H" },
@@ -2079,7 +2079,7 @@ export const products: Product[] = [
     categoryId: "c-laptops",
     priceUSD: 499,
     stock: 20,
-    images: [],
+    images: ["/images/products/p-1106.jpg"],
     specs: [
       { label: "Procesador", value: "Ryzen 5 7530U" },
       { label: "RAM", value: "8 GB" },
@@ -2095,7 +2095,7 @@ export const products: Product[] = [
     categoryId: "c-laptops",
     priceUSD: 749,
     stock: 12,
-    images: [],
+    images: ["/images/products/p-1107.jpg"],
     specs: [
       { label: "Procesador", value: "Core i7-1355U" },
       { label: "RAM", value: "16 GB" },
@@ -2111,7 +2111,7 @@ export const products: Product[] = [
     categoryId: "c-laptops",
     priceUSD: 2199,
     stock: 3,
-    images: [],
+    images: ["/images/products/p-1108.jpg"],
     isNew: true,
     featured: true,
     specs: [
@@ -2130,7 +2130,7 @@ export const products: Product[] = [
     categoryId: "c-laptops",
     priceUSD: 429,
     stock: 25,
-    images: [],
+    images: ["/images/products/p-1109.jpg"],
     specs: [
       { label: "Procesador", value: "Core i3-1215U" },
       { label: "RAM", value: "8 GB" },
@@ -2146,7 +2146,7 @@ export const products: Product[] = [
     categoryId: "c-apple",
     priceUSD: 1099,
     stock: 7,
-    images: [],
+    images: ["/images/products/p-1110.jpg"],
     featured: true,
     specs: [
       { label: "Chip", value: "Apple M3" },
@@ -2164,7 +2164,7 @@ export const products: Product[] = [
     categoryId: "c-apple",
     priceUSD: 1999,
     stock: 4,
-    images: [],
+    images: ["/images/products/p-1111.jpg"],
     isNew: true,
     featured: true,
     specs: [
@@ -2183,7 +2183,7 @@ export const products: Product[] = [
     categoryId: "c-apple",
     priceUSD: 449,
     stock: 15,
-    images: [],
+    images: ["/images/products/p-1112.jpg"],
     specs: [
       { label: "Pantalla", value: "10.9\" Liquid Retina" },
       { label: "Almacenamiento", value: "64 GB" },
@@ -2199,7 +2199,7 @@ export const products: Product[] = [
     categoryId: "c-apple",
     priceUSD: 1299,
     stock: 5,
-    images: [],
+    images: ["/images/products/p-1113.jpg"],
     isNew: true,
     specs: [
       { label: "Chip", value: "Apple M4" },
@@ -2216,7 +2216,7 @@ export const products: Product[] = [
     categoryId: "c-apple",
     priceUSD: 149,
     stock: 22,
-    images: [],
+    images: ["/images/products/p-1114.jpg"],
     specs: [
       { label: "Tipo", value: "In-ear" },
       { label: "Cancelación de ruido", value: "No" },
@@ -2232,7 +2232,7 @@ export const products: Product[] = [
     categoryId: "c-apple",
     priceUSD: 249,
     stock: 12,
-    images: [],
+    images: ["/images/products/p-1115.jpg"],
     featured: true,
     specs: [
       { label: "Tipo", value: "In-ear" },
@@ -2249,7 +2249,7 @@ export const products: Product[] = [
     categoryId: "c-apple",
     priceUSD: 279,
     stock: 10,
-    images: [],
+    images: ["/images/products/p-1116.jpg"],
     specs: [
       { label: "Tamaño", value: "44 mm" },
       { label: "Conectividad", value: "GPS" },
@@ -2265,7 +2265,7 @@ export const products: Product[] = [
     categoryId: "c-configuraciones",
     priceUSD: 799,
     stock: 6,
-    images: [],
+    images: ["/images/products/p-1117.jpg"],
     featured: true,
     specs: [
       { label: "Procesador", value: "Ryzen 5 5600" },
@@ -2283,7 +2283,7 @@ export const products: Product[] = [
     categoryId: "c-configuraciones",
     priceUSD: 999,
     stock: 5,
-    images: [],
+    images: ["/images/products/p-1118.jpg"],
     featured: true,
     specs: [
       { label: "Procesador", value: "Core i5-14400F" },
@@ -2301,7 +2301,7 @@ export const products: Product[] = [
     categoryId: "c-configuraciones",
     priceUSD: 1599,
     stock: 3,
-    images: [],
+    images: ["/images/products/p-1119.jpg"],
     isNew: true,
     featured: true,
     specs: [
@@ -2320,7 +2320,7 @@ export const products: Product[] = [
     categoryId: "c-configuraciones",
     priceUSD: 379,
     stock: 14,
-    images: [],
+    images: ["/images/products/p-1120.jpg"],
     specs: [
       { label: "Procesador", value: "Core i3-14100F" },
       { label: "RAM", value: "8 GB DDR4" },
@@ -2336,7 +2336,7 @@ export const products: Product[] = [
     categoryId: "c-configuraciones",
     priceUSD: 2499,
     stock: 2,
-    images: [],
+    images: ["/images/products/p-1121.jpg"],
     isNew: true,
     featured: true,
     onRequest: true,
@@ -2356,7 +2356,7 @@ export const products: Product[] = [
     categoryId: "c-configuraciones",
     priceUSD: 1099,
     stock: 4,
-    images: [],
+    images: ["/images/products/p-1122.jpg"],
     isNew: true,
     specs: [
       { label: "Procesador", value: "Ryzen 5 7600X" },

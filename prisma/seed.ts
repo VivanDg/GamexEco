@@ -285,6 +285,10 @@ async function main() {
     "p-17": "/images/products/p18-keyboard.jpg",
     "p-18": "/images/products/p8-speakers.jpg",
   };
+  // Map all new products (p-1000 to p-1122) to generated placeholder images
+  for (let i = 1000; i <= 1122; i++) {
+    productImageMap[`p-${i}`] = `/images/products/p-${i}.jpg`;
+  }
   for (const p of productsData) {
     await db.productImage.create({
       data: {
